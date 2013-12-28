@@ -32,14 +32,18 @@ ephem.julian_date('2000/1/1')
 
 print ephem.previous_new_moon(ephem.now())
 print ephem.next_new_moon(ephem.now())
+# localtime
+print ephem.localtime(ephem.next_new_moon(ephem.now()))
 
 print ephem.previous_full_moon(ephem.now())
 print ephem.next_full_moon(ephem.now())
+# localtime
+print ephem.localtime(ephem.next_full_moon(ephem.now()))
 
 rigel = ephem.star('Rigel')
 print rigel._ra, rigel._dec
 
-# constants
+# astronomical constants
 print ephem.meters_per_au
 print ephem.earth_radius
 print ephem.moon_radius

@@ -6,11 +6,7 @@ import ephem
 degrees_per_radian = 180.0 / math.pi
  
 home = ephem.Observer()
-"""
-home.lon = '-122.63'   # +E
-home.lat = '45.56'      # +N
-home.elevation = 80 # meters
-"""
+# Tokyo
 home.lon = '139.581'
 home.lat = '35.6149'
 home.elevation = 500

@@ -7,4 +7,10 @@ Author: kinketu
 
 Dependencies
 ------------
-+ pyephem
++ PyEphem
++ Astropy
++ Astroquery
++ Julianday
++ Novas
++ PyFITS
++ SunPy

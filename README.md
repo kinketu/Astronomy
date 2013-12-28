@@ -11,6 +11,6 @@ Dependencies
 + Astropy
 + Astroquery
 + Julianday
-+ Novas
++ NOVAS
 + PyFITS
 + SunPy

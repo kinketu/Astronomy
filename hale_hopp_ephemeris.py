@@ -14,5 +14,6 @@ here.date = ephem.date('1997/2/15')
 end = ephem.date('1997/5/15')
 while here.date < end:
     hb.compute(here)
-    print here.date, hb.ra, hb.dec, hb.mag, ephem.constellation(hb)
+    print here.date, hb.ra, hb.dec, hb.mag, \
+        ephem.constellation(hb)[1]
     here.date += 5

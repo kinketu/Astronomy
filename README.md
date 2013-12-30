@@ -14,3 +14,4 @@ Dependencies
 + NOVAS
 + PyFITS
 + SunPy
++ APLpy
